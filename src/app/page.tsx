@@ -2,13 +2,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { MessageCircle, Send } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
-        <Card className="mb-6 border-neutral-200 shadow-sm">
+        <Card className="mb-6 border-neutral-200">
           <CardHeader className="text-center pb-4">
             <CardTitle className="text-4xl font-bold text-neutral-900 mb-2">
               Andrey Bogoslovskiy
@@ -23,22 +24,24 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-1">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+41795216717" className="hover:text-neutral-900 transition-colors">
-                  +41 79 521 67 17
+                <span>+41 79 521 67 17</span>
+                <a href="https://t.me/+41795216717" target="_blank" rel="noopener noreferrer" className="ml-1 hover:text-neutral-900 transition-colors" title="Telegram">
+                  <Send className="w-4 h-4" />
+                </a>
+                <a href="https://wa.me/41795216717" target="_blank" rel="noopener noreferrer" className="ml-1 hover:text-neutral-900 transition-colors" title="WhatsApp">
+                  <MessageCircle className="w-4 h-4 fill-current" />
                 </a>
               </div>
               <div className="flex items-center gap-1">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:andybogoslavskiy@gmail.com" className="hover:text-neutral-900 transition-colors">
-                  andybogoslavskiy@gmail.com
-                </a>
+                <span>andybogoslavskiy@gmail.com</span>
               </div>
             </div>
           </CardHeader>
         </Card>
 
         {/* Professional Summary */}
-        <Card className="mb-6 border-neutral-200 shadow-sm">
+        <Card className="mb-6 border-neutral-200">
           <CardHeader>
             <CardTitle className="text-2xl text-neutral-900">Professional Summary</CardTitle>
           </CardHeader>
@@ -53,7 +56,7 @@ export default function Home() {
         </Card>
 
         {/* Work Experience */}
-        <Card className="mb-6 border-neutral-200 shadow-sm">
+        <Card className="mb-6 border-neutral-200">
           <CardHeader>
             <CardTitle className="text-2xl text-neutral-900">Work Experience</CardTitle>
           </CardHeader>
@@ -239,7 +242,7 @@ export default function Home() {
         </Card>
 
         {/* Skills */}
-        <Card className="mb-6 border-neutral-200 shadow-sm">
+        <Card className="mb-6 border-neutral-200">
           <CardHeader>
             <CardTitle className="text-2xl text-neutral-900">Skills</CardTitle>
           </CardHeader>
@@ -275,7 +278,7 @@ export default function Home() {
         </Card>
 
         {/* Education */}
-        <Card className="mb-6 border-neutral-200 shadow-sm">
+        <Card className="mb-6 border-neutral-200">
           <CardHeader>
             <CardTitle className="text-2xl text-neutral-900">Education</CardTitle>
           </CardHeader>
