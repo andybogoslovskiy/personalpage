@@ -49,7 +49,7 @@ export default function Home() {
             <p className="text-neutral-700 leading-relaxed">
               Result-oriented IT professional with over 10 years of experience in Product Management and Business Analysis.
               Proven track record of leading cross-functional teams (developers, designers, marketers) and managing digital
-              products from "0 to 1". Skilled in crisis management for startups, market strategy development, and requirements
+              products from &quot;0 to 1&quot;. Skilled in crisis management for startups, market strategy development, and requirements
               engineering for high-load systems.
             </p>
           </CardContent>
@@ -77,7 +77,7 @@ export default function Home() {
                 <li><strong>Crisis Management:</strong> Took over the project at a stagnation stage, conducted a full audit, and revitalized the product vision.</li>
                 <li><strong>Go-to-Market Strategy:</strong> Developed the market entry concept and strategic roadmap for the product launch.</li>
                 <li><strong>Team Leadership:</strong> Managed the design and development teams, establishing effective workflows to ensure delivery.</li>
-                <li><strong>Achievement:</strong> Successfully moved the project from zero traction to a fully launched product ("0 to 1").</li>
+                <li><strong>Achievement:</strong> Successfully moved the project from zero traction to a fully launched product (&quot;0 to 1&quot;).</li>
               </ul>
             </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
               <ul className="list-disc list-inside space-y-1 text-neutral-700 text-sm">
                 <li><strong>Market Strategy:</strong> Conducted in-depth analysis of the decentralized market to formulate a comprehensive Go-to-Market strategy.</li>
                 <li><strong>Product Concept:</strong> Designed concepts for satellite products to drive protocol adoption and user demand.</li>
-                <li><strong>Strategic Planning:</strong> Acted as the key driver for the product's market positioning and functional roadmap.</li>
+                <li><strong>Strategic Planning:</strong> Acted as the key driver for the product&apos;s market positioning and functional roadmap.</li>
               </ul>
             </div>
 
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
               <p className="text-neutral-600 text-sm mb-3">High-load CRM system for CFD Brokers (FinTech).</p>
               <ul className="list-disc list-inside space-y-1 text-neutral-700 text-sm">
-                <li><strong>Full-Cycle Management:</strong> Executed a full spectrum of BA and PM responsibilities in a high-pressure environment.</li>
+                <li><strong>Full-Cycle Management:</strong> Executed a full spectrum of BA and PM responsibilities within a high-load CRM ecosystem, ensuring system stability and scalability.</li>
                 <li><strong>Requirements Engineering:</strong> Analyzed complex brokerage business processes and translated them into technical specifications for the development team.</li>
               </ul>
             </div>
